@@ -1,0 +1,25 @@
+.botao-verde {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 100vw;
+    height: 200px;
+
+}
+
+.botao-vermelho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 100vw;
+    height: 200px;
+}
+.geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}

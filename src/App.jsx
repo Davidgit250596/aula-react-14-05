@@ -8,6 +8,10 @@ import fotoLuan from "./assets/imgLuan-removebg-preview.png";
 import fotoEu from "./assets/imgEu.jpg";
 import AlunoCard from "./components/AlunoCard";
 import "./App.css"
+// import Contador from "./components/Botao";
+// import Botao from "./components/Botao";
+import Botao2 from "./components/Botao2";
+import Segredo from "./components/segredo";
 
 export default function App () {
   return (
@@ -16,9 +20,12 @@ export default function App () {
     <FormContato />
     <Historia /> */}
     {/* <Curriculo nome="David" atuação="Motoboy" habilidades="Rapidez na entrega" img={Ifood} /> */}
-      <AlunoCard nome="Laniutu" idade="35 anos" curso="Full Stack" img={fotoLaniutu} />
+      {/* <AlunoCard nome="Laniutu" idade="35 anos" curso="Full Stack" img={fotoLaniutu} />
       <AlunoCard nome="David" idade="28 anos" curso="Full Stack" img={fotoEu}  />
-      <AlunoCard nome="Luan" idade="23 anos" curso="Full Stack" img={fotoLuan} />
+      <AlunoCard nome="Luan" idade="23 anos" curso="Full Stack" img={fotoLuan} /> */}
+    {/* <Botao2 /> */}
+    <Segredo />
     </div>
+    
   );
 }
